@@ -21,6 +21,7 @@
   "scripts": {
     "cm": "npx git-cz",
     "build": "lerna run build:viewer --stream",
+    "build:orthanc": "cross-env APP_CONFIG=config/docker-nginx-orthanc.js lerna run build:viewer --stream",
     "build:dev": "lerna run build:dev --stream",
     "build:ci": "lerna run build:viewer:ci --stream",
     "build:qa": "lerna run build:viewer:qa --stream",

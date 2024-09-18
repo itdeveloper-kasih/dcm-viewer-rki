@@ -2,6 +2,19 @@
 
 window.config = {
   routerBasename: '/',
+  servers: {
+    dicomWeb: [
+      {
+        name: 'Orthanc',
+        wadoUriRoot: 'http://localhost:8086/wado',
+        qidoRoot: 'http://localhost:8086/dicom-web',
+        wadoRoot: 'http://localhost:8086/dicom-web',
+        qidoSupportsIncludeField: false,
+        imageRendering: 'wadors',
+        thumbnailRendering: 'wadors',
+      },
+    ],
+  },
   // whiteLabeling: {},
   extensions: [],
   modes: [],
