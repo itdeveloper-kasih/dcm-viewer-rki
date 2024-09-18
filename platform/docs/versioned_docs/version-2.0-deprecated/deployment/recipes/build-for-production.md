@@ -108,7 +108,7 @@ directory:
 yarn global add http-server
 
 // Serve the files in our current directory
-// Accessible at: `http://localhost:8080`
+// Accessible at: `http://localhost:8085`
 http-server
 ```
 

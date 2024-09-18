@@ -80,7 +80,7 @@ app.use((req, res, next) => {
 
 app.use(express.static("public")) // 'public' should be the folder with the static OHIF build files
 
-app.listen(8080, () => console.log("Listening on port 8080!"))
+app.listen(8085, () => console.log("Listening on port 8085!"))
 ```
 
 ![Alt text](../assets/img/iframe-headers.png)

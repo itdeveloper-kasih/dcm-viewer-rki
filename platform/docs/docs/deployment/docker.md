@@ -58,10 +58,10 @@ Simply replace `latest` at the end of the command with any of the tags for a spe
 
 ### Configuring the `nginx` Listen Port
 
-The Dockerfile and entry point use the `${PORT}` environment variable as the port that the `nginx` server uses to serve the web server. The default value for `${PORT}` is `80`. One way to set this environment variable is to use the `-e` switch when running the container with `docker run`. The block below gives an example where the listen port is set to `8080` and published on the host as `3000`.
+The Dockerfile and entry point use the `${PORT}` environment variable as the port that the `nginx` server uses to serve the web server. The default value for `${PORT}` is `80`. One way to set this environment variable is to use the `-e` switch when running the container with `docker run`. The block below gives an example where the listen port is set to `8085` and published on the host as `3000`.
 
 ```sh
-docker run -d -e PORT=8080 -p 3000:8080/tcp --name ohif-viewer-container ohif-viewer-image
+docker run -d -e PORT=8085 -p 3000:8085/tcp --name ohif-viewer-container ohif-viewer-image
 ```
 
 ### Specifying the OHIF config File

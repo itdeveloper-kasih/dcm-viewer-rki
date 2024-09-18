@@ -267,7 +267,7 @@ After accessing the container shell
 ```
 cd /opt/keycloak/bin
 
-./kcadm.sh config credentials --server http://localhost:8080 --realm master --user admin
+./kcadm.sh config credentials --server http://localhost:8085 --realm master --user admin
 ./kcadm.sh update realms/master -s sslRequired=NONE
 ```
 

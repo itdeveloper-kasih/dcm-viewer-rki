@@ -189,7 +189,7 @@ driver: json-file
 options:
 max-size: "10m"
 ports:
-- "8080:8080"
+- "808:8085"
 - "8443:8443"
 - "9990:9990"
 - "11112:11112"
@@ -260,7 +260,7 @@ Expected result:
 
 <!-- ![image alt text](image_14.png) -->
 
-7. Now, go to your browser and access the URL [http://localhost:8080/dcm4chee-arc/ui2/](http://localhost:8080/dcm4chee-arc/ui2/). Once opened, click on the refresh icon on the most right:
+7. Now, go to your browser and access the URL [http://localhost:8085/dcm4chee-arc/ui2/](http://localhost:8085/dcm4chee-arc/ui2/). Once opened, click on the refresh icon on the most right:
 
 <!-- ![image alt text](image_15.png) -->
 
