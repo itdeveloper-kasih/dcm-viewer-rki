@@ -60,7 +60,7 @@ ENV QUICK_BUILD true
 
 # RUN yarn run build
 RUN yarn run build:orthanc
-RUN yarn run orthanc:up
+# RUN yarn run orthanc:up
 
 # Stage 3: Bundle the built application into a Docker container
 # which runs Nginx using Alpine Linux
